@@ -1,16 +1,62 @@
-# duyuru
+# 📢 EduNotice
 
-A new Flutter project.
+EduNotice, öğretmenlerin öğrencilere hızlı ve etkili bir şekilde duyuru göndermesini sağlayan,
+Flutter ve Firebase tabanlı bir mobil uygulamadır.
 
-## Getting Started
+Uygulama; sınıf bazlı duyurular, dosya ve görsel paylaşımı gibi özelliklerle
+okul içi iletişimi dijital ve düzenli hale getirmeyi amaçlar.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Özellikler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 👨‍🏫 Öğretmenler için duyuru oluşturma ve paylaşma
+- 👨‍🎓 Öğrenciler için duyuruları anlık görüntüleme
+- 📝 Başlık ve metin içeren duyurular
+- 🖼️ Görsel ekleme desteği
+- 📎 Birden fazla dosya yükleme ve indirme
+- 🔔 Okunmamış duyuru takibi
+- 🌙 Karanlık / Aydınlık tema desteği
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **Flutter** – Mobil uygulama geliştirme
+- **Firebase Authentication** – Kullanıcı doğrulama
+- **Cloud Firestore** – Duyuru veritabanı
+- **Firebase Storage** – Dosya ve görsel saklama
+- **Material Design** – Modern arayüz tasarımı
+
+---
+
+## 📱 Uygulama Mimarisi
+
+- Öğretmen ve öğrenci rolleri ayrıdır
+- Öğretmenler yalnızca duyuru paylaşabilir
+- Öğrenciler kendi sınıflarına ait duyuruları görüntüler
+- Duyurular tarih sırasına göre listelenir
+
+---
+
+## 🔐 Güvenlik
+
+- Firebase Authentication ile güvenli giriş
+- Hassas dosyalar `.gitignore` ile repo dışı bırakılmıştır
+- Firebase yapılandırma dosyaları paylaşılmamaktadır
+
+---
+
+## 🧑‍💻 Geliştirici
+
+**Samet Güçlü**  
+Bilgisayar Mühendisliği Öğrencisi  
+Mobil Uygulama | Flutter | Firebase  
+
+---
+
+## 📌 Not
+
+Bu proje eğitim amaçlı geliştirilmiştir ve
+gelecekte bildirim sistemi, admin paneli ve çoklu okul desteği gibi
+özelliklerle genişletilebilir.
